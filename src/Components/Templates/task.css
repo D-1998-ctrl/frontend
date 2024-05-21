@@ -1,0 +1,39 @@
+.task-container-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.A {
+    border: 1px solid red;
+
+}
+
+
+.task-temp {
+    display: flex
+}
+
+.task_assignee {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.task-subtasks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.B {
+    border: 1px solid green
+}
+
+
+.subtask-checkbox {
+    transform: scale(1.5);
+   margin-left: 20px;
+}
